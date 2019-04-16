@@ -35,7 +35,7 @@ And determining if point inside a sphere or cylinder pretty easy task.
 ![](cyli_without_cap.png)
 ![](cyli_without_cap_close.png)
 ### Cylinders without caps much better, but there still problems with excess points.
-![](cyli_with_cap_front.png)
-![](cyli_with_cap.png)
-![](cyli_with_cap_close.png)
+![](cyli_with_caps_front.png)
+![](cyli_with_caps.png)
+![](cyli_with_caps_close.png)
 ### Cylinders with caps are really good.
