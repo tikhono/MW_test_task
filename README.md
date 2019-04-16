@@ -43,14 +43,14 @@ I'ts not enough to use only spheres or only cylinders with plain caps because of
 Linear motion of a sphere could be represent as set of linked cylinders with spherical caps.
 And determining if point inside a sphere or cylinder pretty easy task.
 
-## There some illustrations:
+## There are some illustrations:
 ![](only_spheres_front.png)
 ![](only_spheres.png)
-### As you see only spheres is a bad idea.
+### As you see only spheres are bad idea.
 ![](cyli_without_cap_front.png)
 ![](cyli_without_cap.png)
 ![](cyli_without_cap_close.png)
-### Cylinders without caps much better, but there still problems with excess points.
+### Cylinders without caps are much better, but there are still problems with excess points.
 ![](cyli_with_caps_front.png)
 ![](cyli_with_caps.png)
 ![](cyli_with_caps_close.png)
