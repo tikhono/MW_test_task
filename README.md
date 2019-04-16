@@ -1,20 +1,21 @@
-Создайте небольшую документацию (1 страница с 2 рисунками), чтобы представить математический подход
-пересечение точки перемещения сферы. Следует четко донести математический подход
-и как математический код генерируется из этого.
-• Пожалуйста, кратко обсудите в 4-5 предложениях, какие проблемы могут возникнуть при использовании дискретного шага ∆t.
+# This is documantation for test task.
+## Math approache
 
-## This is documantation for test task.
-# Math approache
-**Problematics**
-*Diskrete step*
-The main problem in discrete step in approximation of intermidiate states.
-So, in this case we can assume that step small enough to accept linear move between sphere position.
-Ofcource all movement coud be described as linear with infinit small step, or as linear move with move over circle.
-In this case best approuch is to determine radius of sweep and use cylinder with torus.
-But torus pretty complex figure and there some problems with determining sweep angle.
+it verryy hurd)0)00))))0)
 
+## Problematics of discrete step
 
+The main problem in discrete step is approximation of intermediate state between steps.
+Ideal case is just use infinite amount of steps and get perfect skin.
+But we are limited with machines resources and we can use only small number of sphere positions.
+And there are 2 approaches for solving problem with discrete step:
+1.Assume that step infinitely small (or just small enough to satisfy precision) and approximate sphere moment with linear motion;
+2.Use torus and cylinder because all movement could be described as linear and circular movement.
 
+At first glance second approach better, because we can get really good approximation of movement.
+But there are a lot of additional problems in comparison to first approach.
+For example, determining point in specific sector of a torus is very hard computationally, finding rotation angle or other cases.
 
-First: 1 page and 2 pictures
-Second: discrete step discussion
+So, first approach good enough for this particular task.
+I'ts not enough to use only spheres or only cylinders with plain caps because of we will get a lot of points, that shouldn't be there.
+Linear motion of a sphere could be represent as set of linked cylinders with spherical caps. And determining if point inside a sphere or cylinder pretty easy task.
