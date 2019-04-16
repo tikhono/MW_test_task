@@ -7,7 +7,14 @@ To understand what the cylinder is cutting out - you need to check each cap indi
 To understand that a point inside a sphere or outside of it is enough to know the length of the vector from its center to the test point and compare this length with the radius of the sphere.
 In the case of a cylinder (no caps, we have already dealt with them) you can first find out whether the point lies in the plane perpendicular to the cylinder axis and if it is inside such a plane - check the length of perpendicular from the test point to the cylinder axis.
 ![](scene.png)
-
+So, there example of testing 4 points (I, F, J, K) on intersection with sphere move from point A to point B.
+First check with sphere at center A really easy. Just find vectors AI, AF, AJ, AK and compare with sphere radius.
+Then the same with BI, BF, BJ, BK.
+After that check test if point between 2 parallel planes perpendicular to AB (cylinder axis).
+It's calculating by dot product of AI, AF, AJ, AK and AB and comparing with length of AB.
+If point in this gap - check length of perpendicular between AB and point.
+There left only I and F in gap, so last step - check distance. IL > sphere radius and FM <= sphere radius, so only F lies in cylinder.
+ 
 ## Problematics of discrete step
 
 The main problem in discrete step is approximation of intermediate state between steps.
