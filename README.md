@@ -1,6 +1,6 @@
 # This is documantation for test task.
 
-## Notes on run
+## Notes on run on Linux
 
 1)`cmake CMakeLists.txt`
 
