@@ -1,6 +1,14 @@
 # This is documantation for test task.
-## Mathematical approache
 
+## Notes on run
+
+1)`cmake CMakeLists.txt`
+
+2)`make`
+
+3)`./test_task`
+
+## Mathematical approach
 There is a cylinder with spherical caps.
 It perfectly imitates the linear motion of a sphere.
 To understand what the cylinder is cutting out - you need to check each cap individually, which means you just need to check the occurrence of the test point in each of the spheres.
