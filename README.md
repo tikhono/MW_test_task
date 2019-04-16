@@ -1,8 +1,12 @@
-**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
+Создайте небольшую документацию (1 страница с 2 рисунками), чтобы представить математический подход
+пересечение точки перемещения сферы. Следует четко донести математический подход
+и как математический код генерируется из этого.
+• Пожалуйста, кратко обсудите в 4-5 предложениях, какие проблемы могут возникнуть при использовании дискретного шага ∆t.
 
-When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
+**This is a documantation for test task**
 
-*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
+First: 1 page and 2 pictures
+Second: discrete step discussion
 
 ---
 
