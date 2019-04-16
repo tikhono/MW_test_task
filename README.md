@@ -7,6 +7,8 @@ To understand what the cylinder is cutting out - you need to check each cap indi
 To understand that a point inside a sphere or outside of it is enough to know the length of the vector from its center to the test point and compare this length with the radius of the sphere.
 In the case of a cylinder (no caps, we have already dealt with them) you can first find out whether the point lies in the plane perpendicular to the cylinder axis and if it is inside such a plane - check the length of perpendicular from the test point to the cylinder axis.## Problematics of discrete step
 
+## Discrete step problem
+
 The main problem in discrete step is approximation of intermediate state between steps.
 Ideal case is just use infinite amount of steps and get perfect skin.
 But we are limited with machines resources and we can use only small number of sphere positions.
